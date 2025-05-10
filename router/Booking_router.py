@@ -7,7 +7,7 @@ from utilities.database import SessionLocal
 from models.Booking_model import Booking
 from validation.Booking_validation import BookingRequest
 router=APIRouter()
-
+# print("hi")
 def get_db():
     db=SessionLocal()
     try:
